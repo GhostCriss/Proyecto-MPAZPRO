@@ -93,7 +93,12 @@ Se integró con éxito la escritura en el almacenamiento externo del sistema ope
 - No se realizan conexiones con sistemas institucionales reales.
 - La aplicación respeta el aislamiento de datos; el informe pedagógico está estrictamente reservado al perfil docente.
 
-## 12. Contexto Académico
+## 12. Gestión y Planificación del Proyecto
+
+La planificación, asignación de tareas y el respaldo de las evidencias técnicas del desarrollo (capturas de pantalla y cumplimiento de rúbricas) se encuentran documentadas en nuestro tablero ágil:
+- **Tablero de Trello:** [MPAZ PRO - Desarrollo de Aplicación Móvil](https://trello.com/b/B0tAOt8l/mpaz-pro-desarrollo-de-aplicacion-movil)
+
+## 13. Contexto Académico
 
 - **Asignatura:** DSY1105 - Desarrollo de Aplicaciones Móviles.
 - **Proyecto:** MPAZ PRO.
