@@ -31,7 +31,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Face
 import androidx.compose.material.icons.filled.Person
 
-// 1. Pantalla Inicial (La que querías mantener)
+// 1. Pantalla Inicial
 @Composable
 fun InicioScreen(navController: NavController) {
     Column(
@@ -332,7 +332,7 @@ fun HomeDocenteScreen(navController: NavController, viewModel: UsuarioViewModel)
 
         // Botón conectado al Recurso Nativo (Descarga de archivo)
         Button(
-            onClick = { generarArchivoReporte(contextoLocal, actividades) }, // NUEVO: Llama a la función nativa
+            onClick = { generarArchivoReporte(contextoLocal, actividades) }, //Llama a la función nativa
             modifier = Modifier.fillMaxWidth().height(60.dp),
             shape = RoundedCornerShape(12.dp)
         ) {
