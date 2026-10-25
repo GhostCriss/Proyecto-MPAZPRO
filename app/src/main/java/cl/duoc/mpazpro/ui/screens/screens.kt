@@ -283,7 +283,7 @@ fun HomeEstudianteScreen(navController: NavController) {
 fun HomeDocenteScreen(navController: NavController, viewModel: UsuarioViewModel) {
     // Observamos la lista de actividades desde Room en tiempo real
     val actividades by viewModel.actividades.collectAsStateWithLifecycle()
-    val contextoLocal = LocalContext.current // NUEVO: Captura el contexto de Android para poder usar Toast y Archivos
+    val contextoLocal = LocalContext.current //Captura el contexto de Android para poder usar Toast y Archivos
 
     Column(modifier = Modifier.padding(16.dp).fillMaxSize()) {
         Row(
